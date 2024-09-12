@@ -1,0 +1,12 @@
+#!/bin/bash
+mate-session&
+#/usr/bin/xterm
+gsettings set org.mate.screensaver lock-enabled false
+gsettings set org.mate.power-manager lock-use-screensaver false
+gsettings set org.mate.power-manager lock-keyring-suspend false
+gsettings set org.mate.power-manager lock-keyring-hibernate false
+gsettings set org.mate.power-manager lock-suspend false
+gsettings set org.mate.power-manager lock-blank-screen false
+gsettings set org.mate.power-manager lock-hibernate false
+
+gsettings set org.gnome.desktop.session idle-delay 0
