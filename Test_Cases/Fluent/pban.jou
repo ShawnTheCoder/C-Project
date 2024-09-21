@@ -1,9 +1,0 @@
-/parallel/thread-number-control 1
-rc pban.cas
-it 100
-/parallel/timer/usage
-wd fluent.dat
-OK
-exit
-OK
-
